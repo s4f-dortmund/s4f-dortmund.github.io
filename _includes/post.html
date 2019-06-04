@@ -1,0 +1,20 @@
+<div class="card include.post" id="{{ include.post.id }}">
+  {% if include.post.title %}
+  <div class="card-header">
+    <h3 class="card-title">{{ include.post.title }}</h3>
+    {% if include.post.subtitle %}
+    <h4 class="card-subtitle">{{ include.post.subtitle }}</h4>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% if include.post.image %}
+  <img class="card-image" src="{{ include.post.image }}" alt="">
+  {% endif %}
+  <div class="card-body">
+    {{ include.post.content }}
+  </div>
+  <div class="card-footer">
+    {{ include.post.date | date: "%Y-%d-%m" }} {{ include.post.author }}
+    <a href="{{ include.post.url }}">Direktlink</a>
+  </div>
+</div>
