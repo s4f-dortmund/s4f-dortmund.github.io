@@ -1,0 +1,11 @@
+title: Scientists4Future Dortmund
+description: >- # this means to ignore newlines until the next item
+    Homepage der Dortmunder Lokalgruppe Scientists4Future
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  s4f-dortmund
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
