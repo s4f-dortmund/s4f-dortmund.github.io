@@ -28,6 +28,12 @@ $ sudo pacman -S ruby nodejs libxml2 libxslt
 $ gem install bundler
 ```
 
+#### Fedora
+```
+$ sudo dnf install ruby ruby-devel nodejs libxml2 libxslt
+$ gem install bundler
+```
+
 #### macOS
 ```
 $ brew install ruby node
@@ -41,10 +47,9 @@ Then run
 $ bundle install --path vendor/bundle
 ```
 to install the dependencies
-and 
+and
 
 ```
 $ bundle exec jekyll serve
 ```
 to serve the website on `localhost:4000`
-
