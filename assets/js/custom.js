@@ -19,7 +19,7 @@ $(document).ready(function() {
     $.ajax({
         url: "https://fff-api.dmho.de/v1/scrape/list"
     }).then(function(data) {
-        var msg = '<a href="https://fridaysforfuture.de/streiktermine/">Kein Streik geplant</a>';
+        var msg = 'Noch kein Streik angemeldet';
         for (var entry of data["list"]) {
             if (entry["city"] == strikeLoc) {
               msg = entry["time"] + " (" + entry["place"] + ")";
