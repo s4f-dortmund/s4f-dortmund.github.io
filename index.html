@@ -12,8 +12,14 @@ layout: base
   beizutreten.
 
   Ein Email-Verteiler ist in Planung.
+
+  <h2>Nächster Streiktermin</h2>
+  <p>📆 <span id="next-strike-date"></span>: <a href="https://fridaysforfuture.de/streiktermine/"><span id="next-strike-ld"></span></a></p>
 </div>
 
+<div class="row">
+  <h2>Neuigkeiten</h2>
 {% for post in site.posts limit:4 %}
   {% include post.html post=post %}
 {% endfor %}
+</div>
