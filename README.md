@@ -44,7 +44,8 @@ $ gem install bundler
 Then run
 
 ```
-$ bundle install --path vendor/bundle
+$ bundle config set path vendor/bundle
+$ bundle install
 ```
 to install the dependencies
 and
