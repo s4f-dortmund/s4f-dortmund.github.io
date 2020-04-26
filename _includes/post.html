@@ -8,7 +8,7 @@
   </div>
   {% endif %}
   {% if include.post.image %}
-  <img class="card-image" src="{{ include.post.image }}" alt="">
+  <img class="card-image" src="{{ site.baseurl }}/{{ include.post.image }}" alt="">
   {% endif %}
   <div class="card-body">
     {{ include.post.content }}
