@@ -1,0 +1,10 @@
+---
+layout: base
+---
+
+<div class="row">
+  <h2>Archiv</h2>
+{% for post in site.posts %}
+  {% include post.html post=post %}
+{% endfor %}
+</div>
