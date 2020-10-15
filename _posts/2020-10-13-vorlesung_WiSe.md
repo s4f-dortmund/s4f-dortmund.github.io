@@ -1,5 +1,4 @@
----
-title: Öffentliche Ringvorlesung Klima: "Wandel, Werte, Wissenschaft" an der TU Dortmund
+fstitle: Öffentliche Ringvorlesung Klima: "Wandel, Werte, Wissenschaft" an der TU Dortmund
 author: Henning Moldenhauer, Robert Temminghoff
 layout: post
 ---
